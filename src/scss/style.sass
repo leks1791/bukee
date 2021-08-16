@@ -1,18 +1,18 @@
-$blue: #3bbfce
-$margin: 16px
-body
-  background-color: #3bbfce
-.content-navigation
+.header
+  background-color: #46758a
+  &__top
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.container
+  max-width: 1170px
+  margin: 0 auto
+
+.logo
+  width: 140px
+  height: 30px
+  display: block
+.menu
+  list-style-type: none
   display: flex
-  border-color: $blue
-  color: darken($blue, 9%)
-
-.borders
-  padding: $margin / 2
-  border-color: $blue
-
-.autoplacement-example
-  display: grid
-  grid-template-columns: 1fr 1fr
-  grid-template-rows: auto auto
-  grid-gap: 20px
